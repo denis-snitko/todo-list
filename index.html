@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/main.css" />
+	<title>ToDo приложение</title>
+</head>
+
+<body>
+
+	<div class="notifyholder" id="notifyholder">
+		<!-- <div class="alert alert-warning" role="alert">
+			Задача добавлена!
+		</div>
+
+		<div class="alert alert-success" role="alert">
+			Задача выполнена!
+		</div>
+
+		<div class="alert alert-danger" role="alert">
+			Задача удалена!
+		</div> -->
+	</div>
+
+	<div class="container">
+		<div class="display-4 mb-2">ToDo приложение</div>
+		<div class="h4 mb-5">список задач</div>
+
+		<!-- Form add new task -->
+		<div class="card bg-light">
+			<div class="card-header">Добавить новую задачу</div>
+			<div class="card-body">
+				<form id="newTaskForm">
+					<div class="form-group">
+						<input type="text" class="form-control" id="addNewTask" placeholder="Текст задачи" required>
+						<small id="emailHelp" class="form-text text-muted">Что делаем, сколько времени тратим, какой
+							результат получаем.</small>
+					</div>
+
+
+					<button type="submit" class="btn btn-primary  btn-lg active">Добавить</button>
+				</form>
+			</div>
+		</div>
+		<!-- //Form add new task -->
+
+		<!-- List of tasks -->
+		<div class="card mt-2 mb-4">
+			<ul id="listGroup" class="list-group list-group-flush">
+				<li id="empty-list-item" class="list-item-empty list-group-item text-center">
+					Список дел пуст
+				</li>
+			</ul>
+		</div>
+		<!-- //List of tasks -->
+	</div>
+
+	<!-- Скрипты -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>

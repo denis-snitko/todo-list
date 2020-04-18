@@ -1,0 +1,45 @@
+body {
+	background-color: #E4E5E7;
+	padding-top: 40px;
+}
+
+.aside {
+	height: 400px;
+}
+
+.main {
+	height: 400px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.task-title {
+	font-weight: 400;
+	padding: 5px 10px 0 10px;
+	cursor: pointer;
+}
+
+.task-title--done {
+	text-decoration: line-through;
+	color: #c7c7c7;
+}
+
+.notifyholder {
+	position: fixed;
+	z-index: 100;
+	top: 15px;
+	left: 5px;
+	width: 320px;
+}
+
+.notifyholder div {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.alert {
+	transition: opacity .3s linear;
+	opacity: 0;
+}
