@@ -19,6 +19,8 @@ body {
 	font-weight: 400;
 	padding: 5px 10px 0 10px;
 	cursor: pointer;
+	word-break: break-all; 
+    display: block;
 }
 
 .task-title--done {
